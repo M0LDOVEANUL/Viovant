@@ -87,7 +87,6 @@ header{
 }
 .categories_card{
     position: relative;
-    max-width: 430px;
     width: 100%;
     height: 100%;
 }
@@ -135,6 +134,186 @@ header{
 }
 .about_us {
     font-size: 20px;
+}
+.categories_card h3,
+.categories_card p,
+.categories_card a{
+    color: #fff;
+}
+.categories_card h3{
+    font-size: 32px;
+}
+.categories_card p{
+    font-size: 12px;
+}
+.animals_categories__card img{
+    width: 100%;
+    /* height: auto; */
+}
+.animals_categories__info{
+    width: 100%;
+    height: 250px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.animals_categories__info h3,
+.animals_categories__info p,
+.animals_categories__info a{
+    color: #fff;
+}
+.animals_categories__info h3{
+    font-size: 32px;
+}
+.animals_categories__info p{
+    font-size: 18px;
+}
+.animals_categories__info a,
+.animals_categories__info_right a{
+    background-color: #00894F;
+    border-radius: 25px;
+    text-wrap: nowrap;
+}
+.animals_categories__info_right a{
+    right: 20px;
+    bottom: 0px;
+    position: absolute;
+}
+.animals_categories__info img{
+    /* width: 100%; */
+    height: auto;
+}
+.border_radius{
+    border-radius: 25px;
+}
+.supliments{
+    background: linear-gradient(120deg, rgba(149,150,59,1) 0%, rgba(208,210,83,1) 53%, rgba(208,210,83,1) 100%);
+}
+.supliments_caini{
+    background: linear-gradient(120deg, rgba(129,130,50,1) 0%, rgba(208,210,83,1) 32%, rgba(208,210,83,1) 100%);
+
+}
+.supliments_albini{
+    background: linear-gradient(120deg, rgba(51,74,135,1) 0%, rgba(88,129,235,1) 32%, rgba(88,129,235,1) 100%);
+}
+.vaccinuri{
+    background: linear-gradient(120deg, rgba(70,144,78,1) 0%, rgba(112,231,124,1) 53%, rgba(112,231,124,1) 100%);
+}
+.vaccinuri_iepuri{
+    background: linear-gradient(120deg, rgba(158,70,70,1) 0%, rgba(222,100,100,1) 32%, rgba(222,100,100,1) 100%);
+
+}
+.furajeri{
+    background: linear-gradient(120deg, rgba(61,112,112,1) 0%, rgba(96,178,178,1) 53%, rgba(96,178,178,1) 100%);
+}
+.furajeri_porcine{
+    background: linear-gradient(120deg, rgba(105,57,71,1) 0%, rgba(178,96,121,1) 53%, rgba(178,96,121,1) 100%);
+}
+.furajeri_cobaline{
+    background: linear-gradient(120deg, rgba(1,79,46,1) 0%, rgba(0,137,79,1) 53%, rgba(0,137,79,1) 100%);
+}
+.furajeri_caini{
+    background: linear-gradient(120deg, rgba(70,133,84,1) 0%, rgba(96,178,114,1) 32%, rgba(96,178,114,1) 100%);
+}
+.furajeri_pisici{
+    background: linear-gradient(120deg, rgba(119,56,102,1) 0%, rgba(180,84,155,1) 32%, rgba(180,84,155,1) 100%);
+}
+.probiotice{
+    background: linear-gradient(120deg, rgba(108,69,99,1) 0%, rgba(203,128,186,1) 53%, rgba(203,128,186,1) 100%);
+}
+.probiotice_ovine{
+    background: linear-gradient(120deg, rgba(54,88,152,1) 0%, rgba(90,145,251,1) 53%, rgba(90,145,251,1) 100%);
+}
+.probiotice_albini{
+    background: linear-gradient(120deg, rgba(146,154,52,1) 0%, rgba(241,255,85,1) 52%, rgba(241,255,85,1) 100%);
+
+}
+.probiotice_caini{
+    background: linear-gradient(120deg, rgba(30,148,141,1) 0%, rgba(41,210,200,1) 32%, rgba(41,210,200,1) 100%);
+
+}
+.probiotice_pisici{
+    background: linear-gradient(120deg, rgba(156,71,122,1) 0%, rgba(246,114,193,1) 32%, rgba(246,114,193,1) 100%);
+
+}
+.dezinfectanti{
+    background: linear-gradient(120deg, rgba(63,65,112,1) 0%, rgba(113,117,204,1) 53%, rgba(113,117,204,1) 100%);
+}
+.igiena{
+    background: linear-gradient(120deg, rgba(112,74,58,1) 0%, rgba(200,131,103,1) 53%, rgba(200,131,103,1) 100%);
+}
+.ingrediente{
+    background: linear-gradient(120deg, rgba(106,40,44,1) 0%, rgba(190,70,77,1) 53%, rgba(190,70,77,1) 100%);
+}
+.ingrediente_pisici{
+    background: linear-gradient(120deg, rgba(175,103,55,1) 0%, rgba(245,145,78,1) 32%, rgba(245,145,78,1) 100%);
+}
+.medicamente_albini{
+    background: linear-gradient(120deg, rgba(185,135,33,1) 0%, rgba(254,185,43,1) 32%, rgba(254,185,43,1) 100%);
+}
+.side_menu__tile{
+    background: linear-gradient(180deg, rgba(91,176,133,1) 0%, rgba(7,80,164,1) 73%);
+}
+.products_content__title{
+    background: linear-gradient(260deg, rgba(91,176,133,1) 0%, rgba(7,80,164,1) 73%);
+}
+.side_menu__tile h3,
+.products_content__title h3{
+    color: #fff;
+    font-size: 14px;
+}
+.products_content a{
+    color:#000000 ;
+    font-weight: 600;
+}
+.product_card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+}
+.product_card img{
+    width: 100%;
+}
+.product_card h3{
+    font-weight: 700;
+}
+.product_card__discount{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: #DE0000;
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 0px 10px 10px 0px;
+}
+.products_content__pages a{
+border: 1px solid #25314C;
+padding: 10px;
+border-radius: 5px;
+color: #000000;
+}
+.products_content__pages a:nth-child(2){
+    background-color: #31747A;
+    color: #fff;
+}
+.product_showcase h2{
+    color: #0033A5;
+    font-size: 36px;
+    font-weight: 700;
+}
+.product_showcase h3{
+    font-size: 20px;
+}
+.product_showcase p{
+    font-size: 14px;
+}
+.product_showcase p span{
+    color: #0AA82C;
+    font-weight: 700;
+}
+.product_description h3{
+    font-size: 24px;
+    font-weight: 700;
 }
 footer{
     background-color: #2B3437;
